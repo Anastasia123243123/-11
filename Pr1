@@ -1,0 +1,18 @@
+using System;
+
+namespace P_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x;
+
+            Console.WriteLine("Введите высоту: ");
+            float h = Convert.ToSingle(Console.ReadLine());
+
+            x = Math.Sqrt(2*h / 9.8);
+            Console.WriteLine("Время падения равно: " + x);
+        }
+    }
+}
